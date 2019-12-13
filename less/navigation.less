@@ -1,5 +1,24 @@
 // Navigation code here
 .navigation{
+    text-align:center;
     background-color:@nav-bg;
-    
+    .flex(center, column);
+
+    h1{
+        .nav-font(3rem);
+        padding: 1%;
+    }
+
+    nav {
+        padding-bottom: 1% ;
+        .flex(space-between, row);
+        margin:0 auto;
+        max-width:400px;
+        width:30%;
+
+        a{
+            text-decoration:none;
+            .nav-font(1.2rem);
+        }
+    }
 }
