@@ -7,6 +7,10 @@
     h1{
         .nav-font(3rem);
         padding: 1%;
+
+        @media @phone {
+            font-size:3.5rem;
+        }
     }
 
     nav {
@@ -19,6 +23,11 @@
         a{
             text-decoration:none;
             .nav-font(1.2rem);
+        }
+
+        @media @phone {
+            width: 80%;
+            padding: 2%;
         }
     }
 }
