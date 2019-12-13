@@ -32,15 +32,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
+1. What is the difference between an adaptive website and a fully responsive website?  Responsive websites scale based on screen size, but do not fundamentally change based on the device used. Adaptive websites can shift layouts to better support different screen resolutions.
 
-2. Describe what it means to be mobile first vs desktop first.
+2. Describe what it means to be mobile first vs desktop first.  Mobile first means that the base HTML/CSS are designed for use on a mobile screen, and adjusted to larger devices from there with min-width media queries, while desktop first means that the site is designed initially for desktops, and then adjusted from that base design to be more friendly to smaller screens with the use of max-width media queries.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?  The default font-size is 16px, so 62.5% makes all fonts start at 10px. This makes font-size math easier, so any rem unit * 10 will give you the font-size in px.
 
-4. How would you describe preprocessing to someone new to CSS?
+4. How would you describe preprocessing to someone new to CSS?  It is a program that allows you to generate CSS from a slightly different synttax with unique features that don't exist in pure CSS that make your code easier to read and maintain.
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?  I like the nested CSS part of preprocessors. The most trouble the preprocessor has given me so far is remembering to run less-watch-compiler.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
